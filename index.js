@@ -5,5 +5,5 @@ function findAnswers(query) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log(findAnswers(document.getElementById('xBQ2HyCNJoo33_Z_K6va')))
+    console.log(findAnswers(document.getElementsByClassName('xBQ2HyCNJoo33_Z_K6va')))
 })

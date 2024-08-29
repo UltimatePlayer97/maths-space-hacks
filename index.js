@@ -1,9 +1,9 @@
-console.log(`HELLO! IF YOU SEE THIS`);
-
-console.error(`THE EXTENSION IS WORKING.`);
-
 document.body.style.border = '5px solid red';
 
-let findAnswers = document.getElementsByClassName('root_1nic0gy-o_O-active_1s8ur59');
+function findAnswers(query) {
+    return query.innerHTML;
+}
 
-console.log(findAnswers);
+document.addEventListener('DOMContentLoaded', () => {
+    console.log(findAnswers(document.getElementById('xBQ2HyCNJoo33_Z_K6va')))
+})

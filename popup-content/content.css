@@ -21,7 +21,3 @@ button {
 button:hover {
     background-color: #fbfbc9;
 }
-
-button[type="error-content"]:hover {
-    background-color: #eaea9d;
-}

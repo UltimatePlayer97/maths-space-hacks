@@ -4,9 +4,9 @@
     "version": "1.0",
 
     "description": "Mathsspace hacks and cheats.",
-
-    "icons": {
-        "48": "icons/border-48.png"
+    "action": {
+        "default_popup": "popup-content/content.html",
+        "default_icon": "icons/border-48.png"
     },
 
     "content_scripts": [
@@ -14,5 +14,7 @@
             "matches": ["*://*.mathspace.co/*"],
             "js": ["index.js"]
         }
-    ]
+    ],
+
+    "permissions": []
 }

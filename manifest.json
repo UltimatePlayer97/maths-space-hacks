@@ -1,18 +1,18 @@
 {
-  "manifest_version": 3,
-  "name": "mathspace",
-  "version": "1.0",
+    "manifest_version": 3,
+    "name": "mathspace",
+    "version": "1.0",
 
-  "description": "Mathsspace hacks and cheats.",
+    "description": "Mathsspace hacks and cheats.",
 
-  "icons": {
-    "48": "icons/border-48.png"
-  },
+    "icons": {
+        "48": "icons/border-48.png"
+    },
 
-  "content_scripts": [
-    {
-      "matches": ["*://*.mathspace.co/*"],
-      "js": ["index.js"]
-    }
-  ]
+    "content_scripts": [
+        {
+            "matches": ["*://*.mathspace.co/*"],
+            "js": ["index.js"]
+        }
+    ]
 }

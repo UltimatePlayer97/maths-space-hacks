@@ -1,27 +1,27 @@
 html body {
-  width: 150px;
-  background-color: rgb(40,40,40);
+    width: 150px;
+    background-color: rgb(40, 40, 40);
 }
 
 .hidden {
-  display: none;
+    display: none;
 }
 
 button {
-  border: none;
-  width: 100%;
-  margin: 3% auto;
-  padding: 4px;
-  text-align: center;
-  font-size: 1.5em;
-  cursor: pointer;
-  background-color: rgb(140,140,140);
+    border: none;
+    width: 100%;
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: rgb(140, 140, 140);
 }
 
 button:hover {
-  background-color: #fbfbc9;
+    background-color: #fbfbc9;
 }
 
 button[type="error-content"]:hover {
-  background-color: #eaea9d;
+    background-color: #eaea9d;
 }
